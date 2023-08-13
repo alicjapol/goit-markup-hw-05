@@ -564,7 +564,7 @@ margin-bottom: 16px;
 
 .card-image-wrapper {
   position: relative;
-overflow: hidden;
+
 width: 360px;
 height: 300px;
 }
@@ -572,7 +572,8 @@ height: 300px;
 .transition-text-portoflio {
   width: 100%;
   background-color: var(--iris);
-  translate: 0 100% 0;
+	translate: 0 100% 0;
+
 }
 
 .transition-text-portoflio p {
@@ -583,5 +584,6 @@ height: 300px;
 color: var(--cloud);
 }
 .portfolio-card:hover .transition-text-portoflio{
-  transform: translateY(100%);
+	translate: 0;
+
 }
