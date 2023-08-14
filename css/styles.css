@@ -567,6 +567,7 @@ margin-bottom: 16px;
 
 .modal {
   position: absolute;
+  inset: 0;
   top: 0;
   left: 0;
   width: 100%;
@@ -578,7 +579,6 @@ margin-bottom: 16px;
 }
 
 .modal-body {
-  
   position: relative;
   max-width: 408px;
   min-height: 584px;
