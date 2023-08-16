@@ -43,7 +43,8 @@ p {
 }
 
 .link,
-.link-is-active{
+.link-is-active,
+.link-is-active-portfolio {
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
@@ -53,7 +54,6 @@ p {
   transition-property: color;
   position: relative;
   display: block;
-
 }
 
 .link:hover,
@@ -108,13 +108,30 @@ address {
   line-height: 1.5;
 }
 
-.link-is-active a::after {
+.link-is-active::after {
+  display: block;
   position: absolute;
-    content: "";
-    border-radius: 2px;
-    background-color: var(--ocean);
+  content: "";
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  top: 44px;
+  border-radius: 2px;
+color: var(--ocean);
+  background-color: var(--ocean);
+}
 
-  }
+.link-is-active-portfolio::after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 66px;
+height: 4px;
+top: 44px;
+border-radius: 2px;
+background-color: var(--ocean);
+
+}
 
 .flex-nav {
   display: flex;
