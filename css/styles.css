@@ -121,6 +121,9 @@ color: var(--ocean);
   background-color: var(--ocean);
 }
 
+.current-page {
+  color: var(--ocean);
+}
 .link-is-active-portfolio::after {
   display: block;
   position: absolute;
@@ -132,6 +135,7 @@ border-radius: 2px;
 background-color: var(--ocean);
 
 }
+
 
 .flex-nav {
   display: flex;
